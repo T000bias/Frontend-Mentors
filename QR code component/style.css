@@ -1,12 +1,3 @@
-/* Challenge Classes */
-.attribution { 
-    font-size: 11px; 
-    text-align: center; 
-}
-
-.attribution a { 
-    color: hsl(228, 45%, 44%); 
-}
 
 /* Step 3: Added CSS Reset */
 *,
@@ -123,7 +114,8 @@ p {
 
 img {
     width: 280px;
-    height: 280px;
+    margin: 0 auto;
+    margin-top: 12px;
 }
 
 p {
@@ -180,4 +172,22 @@ p {
 
 .header {
     padding:0 1.1rem;
+}
+
+
+/* Challenge Classes */
+.attribution { 
+    font-size: 1.2rem; 
+    text-align: center; 
+}
+
+.attribution a { 
+    color: hsl(228, 45%, 44%); 
+}
+
+
+@media (max-width:375px ) {
+  body {
+    width: 75%;
+  }
 }
